@@ -5,7 +5,7 @@ include __DIR__.'/Classes/Button.php';
 use Classes\Button\Button;
 
 echo (new Button())
-    ->setName("https://engbjerg.dk")
+    ->setName("Engbjerg.dk")
     ->setUrl("https://engbjerg.dk")
     ->setCssClasses([
      'test_link','test_link1','test_link2','test_link3'
@@ -15,7 +15,7 @@ echo (new Button())
 echo "<hr>";
 
 echo (new Button())
-    ->setName("Magento Tool")
+    ->setName("MagentoTool.com")
     ->setUrl("https://magentotool.com")
     ->setTarget(true)
     ->setCssClasses("separate-class")
@@ -38,3 +38,6 @@ echo (new Button("https://profesionalmente.com.gt", "Profesionalmente.com.gt"))
         'target'    => '_parent'
     ]);
 
+echo "<hr>";
+
+echo (new Button())->setName("I am NO-URL");

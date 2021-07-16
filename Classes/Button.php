@@ -8,7 +8,6 @@ use http\Exception\RuntimeException;
 use Interfaces\ButtonInterface\ButtonInterface;
 
 use JetBrains\PhpStorm\Pure;
-use function Couchbase\passthruEncoder;
 
 class Button implements ButtonInterface
 {
